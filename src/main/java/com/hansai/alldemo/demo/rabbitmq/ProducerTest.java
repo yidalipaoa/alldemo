@@ -12,7 +12,7 @@ import com.rabbitmq.client.ConnectionFactory;
  * @date: 2019/8/29
  * @time: 19:44
  */
-public class ClientTest {
+public class ProducerTest {
     private final static String QUEUE_NAME = "hello";
 
     public void test() {
@@ -34,6 +34,6 @@ public class ClientTest {
     }
 
     public static void main(String[] args) {
-        new ClientTest().test();
+        new ProducerTest().test();
     }
 }
